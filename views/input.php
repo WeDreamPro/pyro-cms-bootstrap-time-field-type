@@ -1,5 +1,5 @@
 <div class="input-append bootstrap-timepicker">
-    <input name="<?php  echo $nameform ?>" type="text" class="timepicker" value="<?php echo $value ?>">
+    <input name="<?php  echo $nameform ?>" type="text" class="timepicker" readonly="readonly" value="<?php echo $value ?>">
     <span class="add-on"><i class="icon-time"></i></span>
 </div>
 <script>
