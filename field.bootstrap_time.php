@@ -33,8 +33,8 @@ class Field_bootstrap_time {
     public function event() {
         $this->CI->type->add_js('bootstrap_time', 'bootstrap.min.js');
         $this->CI->type->add_css('bootstrap_time', 'bootstrap.css');
-        $this->CI->type->add_js('bootstrap_time', 'bootstrap-timepicker.min.js');
-        $this->CI->type->add_css('bootstrap_time', 'bootstrap-timepicker.min.css');
+        $this->CI->type->add_js('bootstrap_time', 'timepicker.min.js');
+        $this->CI->type->add_css('bootstrap_time', 'timepicker.min.css');
     }
     
     /**
